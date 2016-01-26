@@ -1,0 +1,102 @@
+[
+  {
+    "id": "intro",
+    "title": "Intro",
+    "poster": "images/intro.png",
+    "mp4": "videos/intro.mp4",
+    "comments": [
+      {
+        "poster": "images/intro-1.png",
+        "mp4": "videos/intro-1.mp4"
+      }
+    ]
+  },
+  {
+    "id": "video1",
+    "title": "Terre",
+    "poster": "images/video1.png",
+    "mp4": "videos/video1.mp4",
+    "comments": [
+      {
+        "poster": "images/video1-1.png",
+        "mp4": "videos/video1-1.mp4"
+      },
+      {
+        "poster": "images/video1-2.png",
+        "mp4": "videos/video1-2.mp4"
+      },
+      {
+        "poster": "images/video1-3.png",
+        "mp4": "videos/video1-3.mp4"
+      },
+      {
+        "poster": "images/video1-4.png",
+        "mp4": "videos/video1-4.mp4"
+      }
+    ]
+  },
+  {
+    "id": "video2",
+    "title": "Eau",
+    "poster": "images/video2.png",
+    "mp4": "videos/video2.mp4",
+    "comments": [
+      {
+        "poster": "images/video2-1.png",
+        "mp4": "videos/video2-1.mp4"
+      },
+      {
+        "poster": "images/video2-2.png",
+        "mp4": "videos/video2-2.mp4"
+      },
+      {
+        "poster": "images/video2-3.png",
+        "mp4": "videos/video2-3.mp4"
+      },
+      {
+        "poster": "images/video2-3.png",
+        "mp4": "videos/video2-3.mp4"
+      }
+    ]
+  },
+  {
+    "id": "video3",
+    "title": "Air",
+    "poster": "images/video3.png",
+    "mp4": "videos/video3.mp4",
+    "comments": [
+      {
+        "poster": "images/video3-1.png",
+        "mp4": "videos/video3-1.mp4"
+      },
+      {
+        "poster": "images/video3-2.png",
+        "mp4": "videos/video3-2.mp4"
+      },
+      {
+        "poster": "images/video3-3.png",
+        "mp4": "videos/video3-3.mp4"
+      }
+    ]
+  },
+  {
+    "id": "video4",
+    "title": "Plateau",
+    "poster": "images/video4.png",
+    "mp4": "videos/video4.mp4",
+    "comments": [
+      {
+        "poster": "images/video4-1.png",
+        "mp4": "videos/video4-1.mp4"
+      },
+      {
+        "poster": "images/video4-2.png",
+        "mp4": "videos/video4-2.mp4"
+      },
+      {
+        "poster": "images/video4-3.png",
+        "mp4": "videos/video4-3.mp4"
+      }
+    ]
+  }
+]
