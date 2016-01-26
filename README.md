@@ -5,7 +5,7 @@
 This project doesn't provide the video media files, you can place them into the `videos` folder as shown below.
 
 ```
-video
+videos
 ├── intro-1.mp4
 ├── intro.mp4
 ├── video1-1.mp4
