@@ -45,6 +45,11 @@ Math.degrees = function(radians) {
 
 			this.window_width = 1280;
 			this.window_height = 800;
+			// w_heigh = 100%
+			// c_height = 16%
+			// c_top = (100 - 16 - margin) %
+			this.comments_top = 100-16-2 + '%' ;
+			console.log(this.comments_top);
 			this.supports_video = !!document.createElement('video').canPlayType;
 			this.can_play_mp4 = false;
 			this.can_play_ogg = false;
@@ -626,7 +631,7 @@ Math.degrees = function(radians) {
         var comment = document.getElementById(this.getCommentId(i));
         comment.pause();
         comment.style.display = 'block';
-        $.Velocity(comment, { top: '70%', opacity: "1" }, 200);
+        $.Velocity(comment, { top: this.comments_top, opacity: "1" }, 200);
       }
     },
 
@@ -729,7 +734,7 @@ Math.degrees = function(radians) {
   	    var window_height = (window.innerHeight > 0) ? window.innerHeight : screen.height;		
     	var percent_height = window_width*9/window_height;
 		
-        $.Velocity(this.c, {height: percent_height+'%', width: percent_width+'%', top: '70%', left: (left)+'px' }, 500, function() {
+        $.Velocity(this.c, {height: percent_height+'%', width: percent_width+'%', top: self.comments_top, left: (left)+'px' }, 500, function() {
           self.v.play();
           self.initComments();
           self.showIntro();           
@@ -740,7 +745,7 @@ Math.degrees = function(radians) {
 	    var window_height = (window.innerHeight > 0) ? window.innerHeight : screen.height;		
   		var percent_height = window_width*9/window_height;
 
-        $.Velocity(this.c, {height: percent_height+'%', width: '16%', top: '70%', left: (left)+'px' }, 500, function() {
+        $.Velocity(this.c, {height: percent_height+'%', width: '16%', top: self.comments_top, left: (left)+'px' }, 500, function() {
           self.v.play();
           self.initComments();
           self.showComments();
